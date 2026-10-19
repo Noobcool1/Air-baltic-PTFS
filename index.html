@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b2b">
+  <meta name="description" content="A modern virtual airline for Roblox PTFS. Explore our fleet, routes, flight schedule and crew opportunities.">
+  <title>Airline Name | PTFS Virtual Airline</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"><span class="dot"></span> VIRTUAL AIRLINE · ROBLOX PTFS</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Airline Name home">
+      <span class="brand-mark">A<span>✦</span></span>
+      <span class="brand-copy"><strong>AIRLINE NAME</strong><small>VIRTUAL AIRLINES</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#schedule">FLIGHT SCHEDULE</a>
+      <a href="#fleet">OUR FLEET</a>
+      <a href="#careers">CAREERS</a>
+      <a class="nav-cta" href="#community">JOIN OUR COMMUNITY ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <div class="eyebrow"><span></span> YOUR NEXT FLIGHT STARTS HERE</div>
+        <h1>Ready for<br><em>take-off?</em></h1>
+        <p>Discover a new way to fly in PTFS. Join our crew, explore our routes and be part of every journey.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#schedule">EXPLORE FLIGHTS <span>↗</span></a>
+          <a class="button button-ghost" href="#fleet">MEET OUR FLEET</a>
+        </div>
+        <div class="hero-note"><span class="live-dot"></span> OPERATING IN ROBLOX PTFS</div>
+      </div>
+      <div class="hero-caption"><span>01 / FLEET SPOTLIGHT</span><span>A MODERN WAY TO FLY</span></div>
+    </section>
+
+    <section class="quick-stats wrap" aria-label="Airline highlights">
+      <div><span class="stat-icon">✈</span><strong>PTFS</strong><small>OUR WORLD</small></div>
+      <div><span class="stat-icon">⌁</span><strong>Community</strong><small>BUILT BY CREW</small></div>
+      <div><span class="stat-icon">◷</span><strong>Scheduled</strong><small>VIRTUAL FLIGHTS</small></div>
+      <div><span class="stat-icon">↗</span><strong>Join us</strong><small>YOUR SEAT AWAITS</small></div>
+    </section>
+
+    <section class="section wrap" id="schedule">
+      <div class="section-heading">
+        <div><div class="eyebrow dark"><span></span> PLAN YOUR JOURNEY</div><h2>Upcoming <em>flights.</em></h2></div>
+        <p>Check out our sample schedule. Flight details can be updated by the airline team.</p>
+      </div>
+      <div class="notice"><span>ⓘ</span> These are example PTFS flights, not real-world commercial flight information.</div>
+      <div class="flight-table">
+        <div class="flight-row flight-head"><span>FLIGHT</span><span>ROUTE</span><span>DEPARTURE</span><span>STATUS</span></div>
+        <div class="flight-row"><span class="flight-code">AN 204</span><span class="route"><b>EPWA</b><i>→</i><b>EVRA</b><small>Warsaw · Riga (example)</small></span><span class="time">14:30 <small>UTC</small></span><span><b class="status planned">PLANNED</b></span></div>
+        <div class="flight-row"><span class="flight-code">AN 118</span><span class="route"><b>EVRA</b><i>→</i><b>ESSA</b><small>Riga · Stockholm (example)</small></span><span class="time">16:00 <small>UTC</small></span><span><b class="status planned">PLANNED</b></span></div>
+        <div class="flight-row"><span class="flight-code">AN 302</span><span class="route"><b>ESSA</b><i>→</i><b>EPWA</b><small>Stockholm · Warsaw (example)</small></span><span class="time">18:15 <small>UTC</small></span><span><b class="status pending">TBC</b></span></div>
+      </div>
+      <p class="microcopy">Replace the sample flights, times, codes and routes with details approved by your airline owner.</p>
+    </section>
+
+    <section class="fleet-section" id="fleet">
+      <div class="wrap">
+        <div class="section-heading light">
+          <div><div class="eyebrow"><span></span> DESIGNED TO CONNECT</div><h2>Meet our <em>fleet.</em></h2></div>
+          <p>Aircraft we fly in PTFS. Add your airline's actual aircraft and liveries here.</p>
+        </div>
+        <div class="fleet-grid">
+          <article class="fleet-card fleet-feature">
+            <div class="plane-art plane-a220"><span class="plane-label">A220</span><span class="plane-line"></span></div>
+            <div class="fleet-card-copy"><span class="card-kicker">NARROW-BODY · SAMPLE</span><h3>Airbus A220-300</h3><p>A modern aircraft for short and medium-haul virtual routes.</p><a href="#community">FLY WITH US ↗</a></div>
+          </article>
+          <article class="fleet-card">
+            <div class="plane-art plane-a320"><span class="plane-label">A320</span><span class="plane-line"></span></div>
+            <div class="fleet-card-copy"><span class="card-kicker">NARROW-BODY · SAMPLE</span><h3>Airbus A320</h3><p>Versatile capacity for busy routes and community events.</p><a href="#community">FLY WITH US ↗</a></div>
+          </article>
+        </div>
+        <p class="microcopy light-micro">Aircraft shown as text-based design placeholders. Add approved aircraft images when available.</p>
+      </div>
+    </section>
+
+    <section class="careers wrap" id="careers">
+      <div class="careers-copy">
+        <div class="eyebrow dark"><span></span> YOUR JOURNEY BEGINS HERE</div>
+        <h2>More than a flight.<br><em>It's a crew.</em></h2>
+        <p>Love aviation, teamwork and PTFS? We may have a place for you. Choose a role and send an application to the airline team.</p>
+        <div class="role-list"><span>✦ Pilots</span><span>✦ Ground crew</span><span>✦ Cabin crew</span></div>
+      </div>
+      <form class="application-card" id="applicationForm">
+        <div class="form-heading"><span>CREW APPLICATION</span><span class="form-number">01 / 03</span></div>
+        <label for="playerName">Roblox username</label>
+        <input id="playerName" name="playerName" required maxlength="32" placeholder="Your Roblox username">
+        <label for="role">Preferred role</label>
+        <select id="role" name="role" required>
+          <option value="">Select a role</option><option>Pilot</option><option>Ground crew</option><option>Cabin crew</option><option>Other</option>
+        </select>
+        <label for="experience">A little about your experience</label>
+        <textarea id="experience" name="experience" rows="3" maxlength="500" placeholder="Tell the team about yourself (optional)"></textarea>
+        <button class="button button-primary full-button" type="submit">PREPARE APPLICATION ↗</button>
+        <p class="form-hint">Demo only: this form does not send or store your information.</p>
+        <p class="form-result" id="formResult" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="community" id="community">
+      <div class="wrap community-inner">
+        <div><div class="eyebrow"><span></span> LET'S TAKE OFF TOGETHER</div><h2>Your next chapter<br>starts <em>with us.</em></h2></div>
+        <div class="community-action"><p>Join our Roblox PTFS community for flight announcements, crew recruitment and events.</p><a class="button button-light" href="#" id="discordLink">JOIN OUR DISCORD ↗</a><small>Update this button with the airline's approved invite link.</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">A<span>✦</span></span><span class="brand-copy"><strong>AIRLINE NAME</strong><small>VIRTUAL AIRLINES</small></span></a>
+    <p>Independent fan-made virtual airline website for Roblox PTFS. Not affiliated with or endorsed by airBaltic or Roblox.</p>
+    <span>© <span id="year"></span> AIRLINE NAME · VIRTUAL OPERATIONS</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
